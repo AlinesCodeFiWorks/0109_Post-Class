@@ -1,0 +1,19 @@
+html{
+  background-color: antiquewhite;
+}
+
+body{
+  /*Figure out how to align content vertically  */
+}
+
+h1{
+  color:aqua;
+  font-size: xx-large;
+  text-decoration: wavy;
+  /* Centering heading horizontally */
+  text-align: center;
+}
+
+p{
+  font-size: large;
+}
