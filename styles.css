@@ -21,3 +21,18 @@ p{
   background-color: rgb(37, 123, 197);
   padding: 1.5em;
 }
+
+form{
+  /* as part of the challegne, vertically align this one as well */
+}
+input{
+  margin:10px;
+}
+
+input:focus{
+  color:blue;
+}
+
+#submit{
+  padding: 10px;
+}
