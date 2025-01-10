@@ -3,7 +3,7 @@ html{
 }
 
 body{
-  /*Figure out how to align content vertically  */
+  /*Figure out other ways to align content vertically*/
 }
 
 h1{
@@ -16,4 +16,8 @@ h1{
 
 p{
   font-size: large;
+}
+.aboutMe{
+  background-color: rgb(37, 123, 197);
+  padding: 1.5em;
 }
