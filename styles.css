@@ -1,38 +1,38 @@
-html{
+html {
   background-color: antiquewhite;
 }
 
-body{
+body {
   /*Figure out other ways to align content vertically*/
 }
 
-h1{
-  color:aqua;
+h1 {
+  color: aqua;
   font-size: xx-large;
   text-decoration: wavy;
   /* Centering heading horizontally */
   text-align: center;
 }
 
-p{
+p {
   font-size: large;
 }
-.aboutMe{
+.aboutMe {
   background-color: rgb(37, 123, 197);
   padding: 1.5em;
 }
 
-form{
+form {
   /* as part of the challegne, vertically align this one as well */
 }
-input{
-  margin:10px;
+input {
+  margin: 10px;
 }
 
-input:focus{
-  color:blue;
+input:focus {
+  color: blue;
 }
 
-#submit{
+#submit {
   padding: 10px;
 }
