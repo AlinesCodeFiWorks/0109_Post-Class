@@ -1,4 +1,5 @@
 @media (max-width: 600px) {
+  /* media query to define rules for screens smaller than 600px in width */
   body {
     font-size: 14px;
     background-color: lightblue;
@@ -6,15 +7,13 @@
   }
 }
 
-html {
-  background-color: antiquewhite;
-}
-
 body {
+  background-color: antiquewhite;
   /*Figure out other ways to align content vertically*/
 }
 
 h1 {
+  /* styles h1 */
   color: aqua;
   font-size: xx-large;
   text-decoration: wavy;
@@ -23,9 +22,11 @@ h1 {
 }
 
 p {
+  /* styles p font size */
   font-size: large;
 }
 .aboutMe {
+  /* styles About section */
   background-color: rgb(37, 123, 197);
   padding: 1.5em;
 }
@@ -33,15 +34,19 @@ p {
 form {
   /* as part of the challegne, vertically align this one as well */
 }
+
 input {
+  /* styles input boxes */
   margin: 10px;
 }
 
 input:focus {
+  /* styles input boxes when foused on */
   color: blue;
 }
 
 #submit {
+  /* styles submit button */
   padding: 10px;
 }
 
