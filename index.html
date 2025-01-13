@@ -8,7 +8,14 @@
   </head>
   <body>
     <h1>Test page: Google</h1>
-    <section class="aboutMe">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#aboutMe">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="aboutMe" id="aboutMe">
       <h2>About Me</h2>
       <p>My name is Aline Taylor and I have a few hobbies.</p>
       <p>My current hobbies are...</p>
@@ -17,7 +24,7 @@
         <li>Jigsaw puzzles</li>
         <li>Birdwatching</li>
       </ul>
-    </section>
+    </div>
     <p>This is a test paragraph for my test page.</p>
     <p>
       This paragraph includes a working link to
@@ -27,7 +34,7 @@
     <a href="https://www.google.com"
       ><img src="img/google.logo.png" alt="Google logo"
     /></a>
-    <section class="form">
+    <div class="form" id="contact">
       <h2>Contact</h2>
       <form>
         <label for="name">Name:</label>
@@ -46,6 +53,6 @@
         <br />
         <input type="submit" id="submit" />
       </form>
-    </section>
+    </div>
   </body>
 </html>
