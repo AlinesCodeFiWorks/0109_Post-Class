@@ -9,7 +9,9 @@
 
 body {
   background-color: antiquewhite;
-  /*Figure out other ways to align content vertically*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -31,10 +33,6 @@ p {
   padding: 1.5em;
 }
 
-form {
-  /* as part of the challegne, vertically align this one as well */
-}
-
 input {
   /* styles input boxes */
   margin: 10px;
@@ -50,6 +48,9 @@ input:focus {
   padding: 10px;
 }
 
-nav {
+nav li {
   /* Style the menu to display horizontally across the top of the page, and remove the list bullets. */
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
