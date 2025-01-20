@@ -49,8 +49,16 @@ input:focus {
 }
 
 nav li {
-  /* Style the menu to display horizontally across the top of the page, and remove the list bullets. */
   list-style: none;
+  padding: 10px;
+}
+
+nav li:hover {
+  background-color: white;
+}
+
+nav ul {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
 }
